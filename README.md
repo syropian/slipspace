@@ -15,7 +15,7 @@ Simple deploys for your projects.
 - [jq](http://stedolan.github.io/jq/) for JSON parsing.
 - Git
 
-You should also have public key authentication for your server, unless oyu want to enter your SSH password every deploy.
+You should also have public key authentication for your server, unless you want to enter your SSH password every deploy.
 
 ## Usage
 
