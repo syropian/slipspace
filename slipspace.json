@@ -1,0 +1,24 @@
+{
+  "environments": {
+    "staging": {
+      "host": "192.42.243.146",
+      "user": "root",
+      "after": [
+        "composer install",
+        "composer update",
+        "chmod -R og-rx .git"
+      ],
+      "migrate": "php artisan migrate"
+    },
+    "production": {
+      "host": "192.81.221.137",
+      "user": "root",
+      "after": [
+        "composer install",
+        "composer update",
+        "chmod -R og-rx .git"
+      ],
+      "migrate": "php artisan migrate"
+    }
+  }  
+}
