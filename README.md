@@ -15,6 +15,8 @@ Simple deploys for your projects.
 - [jq](http://stedolan.github.io/jq/) for JSON parsing.
 - Git
 
+You should also have public key authentication for your server, unless oyu want to enter your SSH password every deploy.
+
 ## Usage
 
 The easiest way to use Slipspace is to copy the function from the `slipspace.sh` file into your bash profile and reload it (`source ~/.profile`). Next create a configuration file called `slipspace.json` somewhere in your project (the root is usually the best place). Have a look at the included config file to see how it should be structured.
