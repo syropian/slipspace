@@ -34,4 +34,4 @@ Need to run migrations? Add a `--migrate` flag at the end.
 ## Todo
 
 - Better error handling
-
+- Write better documentation
